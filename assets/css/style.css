@@ -44,7 +44,6 @@ header{
 .widget{
   width: 100%;
   height: 45vh;
-  background-color: purple;
 }
 
 .corpo{
@@ -60,16 +59,33 @@ header{
   height: 40vh;
   background-color: blue;
 }
+.widget, .articolo{
+  color: black;
+  text-align: center;
+  background-color: white;
+  box-shadow: 2px 2px #888888;
+}
 /* \corpo pagina\ */
 
 .footer{
   width: 100%;
   height: 20vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background-color: green;
 }
 
 
 /* impostazioni generali */
+h1, p{
+  padding: 2px;
+}
+
+#ombreggiatura{
+  text-shadow: 2px 2px 4px black;
+}
+
 .m{
   margin-top: 20px;
   margin-bottom: 20px;

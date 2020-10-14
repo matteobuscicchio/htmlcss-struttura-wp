@@ -45,6 +45,16 @@ main:after{
 .widget{
   width: 100%;
 }
+.widget:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.widget h2{
+  width: 60%;
+  font-weight: 600;
+}
+
 
 .corpo{
   width: 50%;
@@ -72,6 +82,7 @@ h1, p{
 }
 
 #ombreggiatura{
+  font-weight: 600;
   text-shadow: 2px 2px 4px black;
 }
 
